@@ -1,5 +1,4 @@
 #!/bin/bash
-cd /absolute/path/to/script/dir || exit 1
 trap "echo 'Exited!'; exit 0" SIGINT SIGTERM
 
 while true; do
